@@ -1,0 +1,408 @@
+.error-message {
+    color: hsl(0, 100%, 66%);
+}
+
+@media (min-width: 1200px) and (max-width:1600px) {
+    .main {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card img {
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .form {
+        margin: 0 auto;
+        width: 60%;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #220930;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .row label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .row .input input {
+        width: calc(50% - 5px);
+        margin-left: 0;
+    }
+
+    .row-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row-group .row {
+        width: 48%;
+    }
+
+    .row-group .row .input input+input {
+        margin-left: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #220930;
+        color: #ffff;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    input:disabled {
+        background-color: #f0f0f0;
+        cursor: not-allowed;
+    }
+
+    .sub-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 327px;
+        height: 291px;
+        left: 0;
+
+        .complete-ico {
+            left: 120px;
+        }
+
+        p {
+            left: 8.49%;
+        }
+    }
+}
+
+@media (min-width: 900px) and (max-width:1200px) {
+
+    .main {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card img {
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .form {
+        margin-left: 200px;
+        width: 60%;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #220930;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .row label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .row .input input {
+        width: calc(50% - 5px);
+        margin-left: 0;
+    }
+
+    .row-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row-group .row {
+        width: 48%;
+    }
+
+    .row-group .row .input input+input {
+        margin-left: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #220930;
+        color: #ffff;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    input:disabled {
+        background-color: #f0f0f0;
+        cursor: not-allowed;
+    }
+
+    .sub-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 327px;
+        height: 291px;
+        left: 0;
+
+        .complete-ico {
+            left: 120px;
+        }
+
+        p {
+            left: 8.49%;
+        }
+    }
+}
+
+
+@media (min-width: 450px) and (max-width: 899px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        background-color: #ffff;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .card img {
+        width: 100vw;
+        max-height: 240px;
+    }
+
+    .form {
+        margin-top: 50px;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #220930;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .row label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .row .input input {
+        width: calc(50% - 5px);
+        margin-left: 0;
+    }
+
+    .row-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row-group .row {
+        width: 48%;
+    }
+
+    .row-group .row .input input+input {
+        margin-left: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #220930;
+        color: #ffff;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    input:disabled {
+        background-color: #f0f0f0;
+        cursor: not-allowed;
+    }
+
+    .sub-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 327px;
+        height: 291px;
+        left: 0;
+
+        .complete-ico {
+            left: 120px;
+        }
+
+        p {
+            left: 8.49%;
+        }
+    }
+}
+
+@media (width <=450px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        background-color: #ffff;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .card img {
+        width: 100vw;
+        max-height: 240px;
+        min-height: 200px;
+    }
+
+    .form {
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #220930;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .row label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .row .input input {
+        width: calc(50% - 5px);
+        margin-left: 0;
+    }
+
+    .row-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row-group .row {
+        width: 48%;
+    }
+
+    .row-group .row .input input+input {
+        margin-left: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #220930;
+        color: #ffff;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    input:disabled {
+        background-color: #f0f0f0;
+        cursor: not-allowed;
+    }
+
+    .sub-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 327px;
+        height: 291px;
+        left: 0;
+
+        .complete-ico {
+            left: 120px;
+        }
+
+        p {
+            left: 8.49%;
+        }
+    }
+}

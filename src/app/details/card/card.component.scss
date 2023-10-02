@@ -1,0 +1,141 @@
+@media (min-width: 900px) and (max-width:1600px) {
+
+    .cardfront {
+        position: absolute;
+        z-index: 1;
+        width: 286px;
+        height: 157px;
+        top: 20vh;
+        left: 15%;
+    }
+
+    .cardback {
+        position: absolute;
+        z-index: 1;
+        width: 286px;
+        height: 157px;
+        top: 55vh;
+        left: 25%;
+    }
+
+    .card-bc {
+        position: absolute;
+        z-index: 1;
+        width: 286px;
+        height: 157px;
+        top: calc(55vh + 67px);
+        left: calc(25% + 230px);
+        color: #ffff;
+    }
+
+    .cardlogo {
+        position: absolute;
+        z-index: 1;
+        width: 84px;
+        height: 47px;
+        top: 22vh;
+        left: 16%;
+        color: #ffff;
+    }
+
+    .card-fr1 {
+        position: absolute;
+        z-index: 2;
+        top: calc(20vh + 90px);
+        left: 16%;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+    .card-fr2 {
+        position: absolute;
+        z-index: 2;
+        top: calc(20vh + 125px);
+        left: 16%;
+        color: #ffff;
+    }
+
+    .card-fr3 {
+        position: absolute;
+        z-index: 2;
+        top: calc(20vh + 125px);
+        left: calc(16% + 220px);
+        color: #ffff;
+    }
+
+}
+
+@media (width <=899px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        background-color: #ffff;
+        font-family: 'Space Grotesk', sans-serif;
+        position: absolute;
+        width: 100%;
+    }
+
+    .cardback {
+        position: absolute;
+        z-index: 1;
+        right: 5%;
+        top: 28px;
+        width: 286px;
+        height: 157px;
+    }
+
+    .card-bc {
+        position: absolute;
+        z-index: 1;
+        right: 12%;
+        top: 95px;
+        color: #ffff;
+    }
+
+    .cardfront {
+        position: absolute;
+        z-index: 2;
+        left: 28px;
+        top: 117px;
+        width: 286px;
+        height: 157px;
+    }
+
+    .cardlogo {
+        position: absolute;
+        z-index: 2;
+        width: 84px;
+        height: 47px;
+        left: 40px;
+        top: 130px;
+        color: #ffff;
+    }
+
+    .card-fr1 {
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        top: 210px;
+        color: #ffff;
+    }
+
+    .card-fr2 {
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        top: 250px;
+        color: #ffff;
+    }
+
+    .card-fr3 {
+        position: absolute;
+        z-index: 2;
+        left: 245px;
+        top: 250px;
+        color: #ffff;
+    }
+
+}

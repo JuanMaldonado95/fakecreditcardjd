@@ -1,0 +1,18 @@
+<!-- <div class="main"> -->
+
+    <img class="cardfront" src="../assets/bg-card-front.png" alt="">
+
+    <img class="cardlogo" src="../../../assets/card-logo.svg" alt="">
+    <span *ngIf="!cardInfo.cardNumber" class="card-fr1">0000 0000 0000 0000</span>
+    <span *ngIf="!cardInfo.cardName" class="card-fr2">Jane Appleseed</span>
+    <span *ngIf="!cardInfo.cardMM && !cardInfo.cardYY" class="card-fr3">00/00</span>
+
+    <span class="card-fr1">{{cardInfo.cardNumber}}</span>
+    <span class="card-fr2">{{cardInfo.cardName}}</span>
+    <span *ngIf="cardInfo.cardMM && cardInfo.cardYY" class="card-fr3">{{cardInfo.cardMM}}/{{cardInfo.cardYY}}</span>
+
+    <img class="cardback" src="../assets/bg-card-back.png" alt="">
+
+    <span *ngIf="!cardInfo.cardCVC" class="card-bc">cvc</span>
+    <span class="card-bc">{{cardInfo.cardCVC}}</span>
+<!-- </div> -->
